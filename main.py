@@ -40,7 +40,7 @@ def get_next_pixel(n, m, z, shape):
     return n, m, z
 
 def encrypt_message():
-    img_path = "E:/karan shukla/Edunet/mypic.jpg"
+    img_path = "E:/karan shukla/Edunet/AICTE/mypic.jpg"
     img = cv2.imread(img_path)
     if img is None:
         logging.error("Error: Could not load image")
